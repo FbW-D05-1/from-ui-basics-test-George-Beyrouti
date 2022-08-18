@@ -1,0 +1,67 @@
+body
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+header
+
+{padding: 15px;
+  height: 100%;
+  width: 100%;
+  background-color: cyan;
+  position: sticky;
+  top: 0;
+}
+
+.list ul li:nth-child(2) 
+
+{
+  color: blue;
+}
+
+.image
+
+{
+  display: inline;
+}
+
+.thirdheading
+
+{
+  color: rgb(255, 165, 0);
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+footer ul li a:hover
+
+{
+  color: red;
+}
+
+footer ul li a:visited {
+  color: green;
+}
+
+footer ul li a:hover {
+  color: red;
+}
+
+.box-model
+
+{
+  padding: 5px;
+  margin: 10%;
+}
+
+#tree
+
+{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
